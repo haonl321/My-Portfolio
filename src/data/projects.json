@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "Portfolio Website",
+    "description": "Website giới thiệu bản thân sử dụng ReactJS, TailwindCSS và Framer Motion.",
+    "link": "https://your-portfolio-link.com",
+    "image": "/images/portfolio.png",
+    "technologies": ["React", "Tailwind", "Framer Motion"]
+  },
+  {
+    "id": 2,
+    "title": "App Quản lý Công việc",
+    "description": "Ứng dụng tạo và quản lý công việc hàng ngày bằng React và LocalStorage.",
+    "link": "https://github.com/yourname/task-app",
+    "image": "/images/todo.png",
+    "technologies": ["React", "LocalStorage"]
+  },
+  {
+    "id": 3,
+    "title": "Landing Page sản phẩm",
+    "description": "Trang giới thiệu sản phẩm chuẩn responsive, thiết kế UI hiện đại.",
+    "link": "https://your-landingpage-demo.com",
+    "image": "/images/landing.png",
+    "technologies": ["HTML", "CSS", "JS"]
+  },
+  {
+    "id": 4,
+    "title": "Blog cá nhân",
+    "description": "Trang viết blog dùng Markdown + React, hiển thị bài viết cá nhân.",
+    "link": "https://your-blog.com",
+    "image": "/images/blog.png",
+    "technologies": ["React", "Markdown", "Vite"]
+  },
+  {
+    "id": 5,
+    "title": "Shop bán hàng",
+    "description": "Trang thương mại điện tử mini, có giỏ hàng và thanh toán demo.",
+    "link": "https://github.com/yourname/shop-app",
+    "image": "/images/shop.png",
+    "technologies": ["React", "Tailwind", "Firebase"]
+  }
+]
