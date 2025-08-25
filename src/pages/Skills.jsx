@@ -1,5 +1,6 @@
 // pages/Skills.jsx
 import React from "react";
+import { Link } from "react-router-dom";
 import skills from "../data/skills.json";
 import certs from "../data/certificates.json";
 import exps from "../data/experiences.json";
@@ -7,22 +8,7 @@ import exps from "../data/experiences.json";
 export default function Skills() {
   return (
     <div className="min-h-screen bg-[#0f172a] text-white font-sans">
-      {/* Navbar */}
-      <nav className="flex justify-between items-center p-6 max-w-6xl mx-auto">
-        <div className="text-2xl font-bold tracking-wide text-blue-500">HAO LACOSTE</div>
-        <ul className="hidden md:flex gap-6 text-sm font-medium">
-          <li><a href="/" className="hover:text-blue-400">Giới thiệu</a></li>
-          <li><a href="/projects" className="hover:text-blue-400">Dự án</a></li>
-          <li><a href="/contact" className="hover:text-blue-400">Liên hệ</a></li>
-          <li><a href="/skills" className="hover:text-blue-400">Kỹ năng</a></li>
-        </ul>
-        <a
-          href="#contact"
-          className="bg-blue-600 px-4 py-2 rounded hover:bg-blue-700 transition"
-        >
-          Hire Me
-        </a>
-      </nav>
+      
 
       {/* Nội dung */}
       <section className="px-6 py-16 max-w-6xl mx-auto space-y-16">
