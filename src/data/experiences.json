@@ -1,0 +1,14 @@
+[
+  {
+    "company": "ABC Software",
+    "role": "Frontend Developer Intern",
+    "duration": "06/2023 - 08/2023",
+    "description": "Tham gia phát triển giao diện người dùng với ReactJS và TailwindCSS."
+  },
+  {
+    "company": "Freelance",
+    "role": "Web Developer",
+    "duration": "2024",
+    "description": "Xây dựng website portfolio cá nhân và website thương mại điện tử nhỏ."
+  }
+]

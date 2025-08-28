@@ -17,10 +17,18 @@
   },
   {
     "id": 3,
-    "title": "The Toy Strore",
+    "title": "The Toy Store",
     "description": "Trang thương mại điện tử mini, có giỏ hàng và thanh toán demo.",
     "link": "https://toy-store-website.vercel.app/products",
     "image": "/images/shop.png",
     "technologies": ["React", "Tailwind", "Firebase"]
+  },
+  {
+    "id": 4,
+    "title": "Online Book Reading Website",
+    "description": "Website đọc sách trực tuyến với ASP.NET MVC, hỗ trợ quản lý sách, bình luận và phân quyền người dùng.",
+    "link": "https://github.com/haonl321/BookReadingApp", 
+    "image": "/images/book.png",
+    "technologies": ["ASP.NET MVC", "SQL Server", "Entity Framework", "Bootstrap"]
   }
 ]
