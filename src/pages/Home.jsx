@@ -33,7 +33,7 @@ function Home() {
         {/* Hero Image */}
         <div className="flex-1">
           <img
-            src={`${process.env.PUBLIC_URL}/profile.png`}
+            src={`${process.env.PUBLIC_URL}/profile2.png`}
             alt="Minh hoạ"
             className="w-full rounded-xl shadow-lg object-cover"
           />
