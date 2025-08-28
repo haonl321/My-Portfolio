@@ -31,11 +31,11 @@ function Home() {
         </div>
 
         {/* Hero Image */}
-        <div className="flex-1">
+        <div className="flex-1 flex justify-center">
           <img
             src={`${process.env.PUBLIC_URL}/profile2.png`}
             alt="Minh hoạ"
-            className="w-full rounded-xl shadow-lg object-cover"
+            className="w-80 h-80 md:w-[28rem] md:h-[28rem] rounded-full shadow-lg object-contain bg-white p-2"
           />
         </div>
       </div>
