@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "title": "Portfolio Website",
+    "description": "Website giới thiệu bản thân sử dụng ReactJS, TailwindCSS và Framer Motion.",
+    "link": "https://haonl321.github.io/My-Portfolio/",
+    "image": "/images/portfolio.png",
+    "technologies": ["React", "Tailwind", "Framer Motion"]
+  },
+  {
+    "id": 2,
+    "title": "App Quản lý Công việc",
+    "description": "Ứng dụng tạo và quản lý công việc hàng ngày bằng React và LocalStorage.",
+    "link": "https://github.com/yourname/task-app",
+    "image": "/images/todo.png",
+    "technologies": ["React", "LocalStorage"]
+  },
+  {
+    "id": 3,
+    "title": "The Toy Store",
+    "description": "Trang thương mại điện tử mini, có giỏ hàng và thanh toán demo.",
+    "link": "https://toy-store-website.vercel.app/products",
+    "image": "/images/shop.png",
+    "technologies": ["React", "Tailwind", "Firebase"]
+  },
+  {
+    "id": 4,
+    "title": "Online Book Reading Website",
+    "description": "Website đọc sách trực tuyến với ASP.NET MVC, hỗ trợ quản lý sách, bình luận và phân quyền người dùng.",
+    "link": "https://github.com/haonl321/BookReadingApp", 
+    "image": "/images/book.png",
+    "technologies": ["ASP.NET MVC", "SQL Server", "Entity Framework", "Bootstrap"]
+  }
+]
