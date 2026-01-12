@@ -1,0 +1,34 @@
+import projectData from "@/data/projects.json";
+
+export default function Projects() {
+  return (
+    <section className="min-h-screen bg-[#0f172a] text-white font-sans px-6 py-16 max-w-6xl mx-auto">
+      <h2 className="text-4xl font-bold mb-12 text-center text-blue-500">
+        Dự án đã thực hiện
+      </h2>
+
+      <div className="grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+        {projectData.map((p) => (
+          <div
+            key={p.id}
+            className="bg-[#1e293b] p-6 rounded-lg shadow-md hover:shadow-lg transition"
+          >
+            <h3 className="text-xl font-semibold text-white mb-2">{p.title}</h3>
+            <p className="text-gray-300 text-sm">{p.description}</p>
+            {p.link && (
+              <a
+                href={p.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block mt-4 text-blue-400 hover:underline text-sm"
+              >
+                Xem chi tiết →
+              </a>
+            )}
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+}
+
