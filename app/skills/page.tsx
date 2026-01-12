@@ -45,9 +45,9 @@ export default function Skills() {
               className="bg-[#1e293b] p-6 border-l-4 border-blue-500 rounded shadow"
             >
               <h3 className="text-xl font-semibold text-white">
-                {exp.position} – {exp.company}
+                {exp.role} – {exp.company}
               </h3>
-              <p className="text-sm text-gray-400">{exp.time}</p>
+              <p className="text-sm text-gray-400">{exp.duration}</p>
               <p className="mt-2 text-gray-200">{exp.description}</p>
             </div>
           ))}
@@ -56,4 +56,3 @@ export default function Skills() {
     </section>
   );
 }
-
