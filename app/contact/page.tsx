@@ -1,17 +1,21 @@
+"use client"
+
 import { useRef } from "react";
 import emailjs from "emailjs-com";
 
 export default function Contact() {
-  const form = useRef();
+  const form = useRef<HTMLFormElement>(null);
 
   const sendEmail = (e: React.FormEvent) => {
     e.preventDefault();
+
+    if (!form.current) return;
 
     emailjs
       .sendForm(
         "service_gt7u3vh", // service ID của bạn
         "template_28aoqqw", // template ID
-        form.current as HTMLFormElement,
+        form.current,
         "k9YIu1YGRyzik5YDn" // public key
       )
       .then(
@@ -27,7 +31,7 @@ export default function Contact() {
   return (
     <section className="min-h-screen bg-[#0f172a] text-white font-sans px-6 py-16 max-w-xl mx-auto">
       <h2 className="text-4xl font-bold mb-8 text-center text-blue-500">Liên hệ với tôi</h2>
-      <form ref={form as React.RefObject<HTMLFormElement>} onSubmit={sendEmail} className="space-y-4">
+      <form ref={form} onSubmit={sendEmail} className="space-y-4">
         <input
           name="name"
           placeholder="Họ tên"
@@ -57,4 +61,3 @@ export default function Contact() {
     </section>
   );
 }
-
